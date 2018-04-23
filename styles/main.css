@@ -3,7 +3,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-
+    position: relative;
 }
 #nav_menu li{
     float: left;
@@ -18,12 +18,25 @@
     background-color: #800000;
     color: #ffffff;
     font-weight: bold;
-
 }
 
 #nav_menu .current{
     color: #FFFF00;
 }
+
+#nav_submenu{
+    display: none;
+    position: relative;
+    top: 100%;
+}
+#nav_submenu li{
+    clear: both;
+}
+#nav_submenu li:hover a{
+    display: block;
+    position: relative;
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
