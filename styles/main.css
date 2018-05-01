@@ -24,19 +24,20 @@
     color: #FFFF00;
 }
 
-#nav_submenu{
+/*submenu*/
+#nav_menu li ul{
     display: none;
-    position: relative;
     top: 100%;
+    list-style-type: none;
+    position: absolute;
 }
-#nav_submenu li{
+#nav_menu li ul li{
     clear: both;
 }
-#nav_submenu li:hover a{
-    display: block;
-    position: relative;
-}
 
+#nav_menu li:hover ul{
+    display: block;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
