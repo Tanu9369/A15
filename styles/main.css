@@ -1,9 +1,21 @@
 /* media query */
 
+.slicknav_menu {
+    display:none;
+}
+
 @media only screen and (max-width: 479px){
     basefont{
         font-size: 90%;
     }
+    .js #nav-menu {
+        display:none;
+    }
+    .js .slicknav_menu {
+        display:block;
+        background-color: #800000;
+    }
+
 }
 
 @media only screen and (max-width: 767px){
